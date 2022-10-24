@@ -1,0 +1,233 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 480px) {
+    .banner-section{
+        margin-top: 10px;
+    }
+    .form-area{
+        margin-top: 0px;
+    }
+    .form-area{
+        background-color: #fff;
+        box-shadow: none;
+        border-radius: none;
+        padding: 30px 40px;
+    }
+    .searchbox{
+        margin-top: 10px;
+    }
+    .heartback, .heartback1, .heartback2{
+        display: none;
+    }
+    .aboutimgss img{
+        height: 100px;
+        width: auto;
+    }
+    .subscribesection{
+        margin-bottom: 60px;
+    }
+    .copyright{
+        bottom: -30px;
+        font-size: 0.8rem;
+    }
+    .footerbg{
+        height: 30px;
+    }
+    .plans{
+        width: 290px;
+        border-radius: 20px;
+        padding: 25px;
+        background-color: #fff;
+        position: relative;
+        box-shadow: rgb(50 50 93 / 25%) 0px 0px 7px -13px, rgb(0 0 0 / 30%) 0px 8px 16px -8px;
+        border: 1px solid #e0e0e0;
+    }  
+    .features ul li{
+        font-size: 0.8rem;
+    }
+    .navbar{
+        position: relative;
+    }
+    .coverimg-container{
+        margin-top: 0px;
+    }
+    .table-right {
+        margin-top: -15px;
+    }
+    .image-list ul li{
+        margin: 6px;
+    }
+    .menubar{
+        display: none;
+    }
+    .mob-menu-container{
+        display: block;
+    }
+	 .topsection h3{
+      
+	  width: 150px;
+  }
+  .features ul li{
+	  letter-spacing:0px;
+	  
+  }
+
+.first-container{
+        margin-top: 53px;
+    }
+    /* about us page */
+    .abt-content {
+        width: 100%;
+    }
+    .abt-img2{
+        height: auto;
+        width: 60%;
+    }
+    .abt-us-head{
+        font-size: 1.3rem;
+    }
+    .abt-us-head img{
+        width: 60px;
+    }
+    .abt-us-head::before{
+        bottom: 0;
+        left: 40%;
+    }
+    .abt-img-mob{
+        display: block;
+    }
+    .abt--img{
+        display: none;
+    }
+    .history-head{
+        font-size: 1.1rem;
+    }
+    .history-head img{
+        display: none;
+    }
+    .history-head::before{
+        bottom: -5px;
+    }
+    .abt-last-imgs{
+        width: 100%;
+        height: auto;
+    }
+    .appdown-content, .appdownicon{
+        padding: 10px;
+        margin-top: 10px;
+    }
+    .appdownloadsection{
+        width: 100%;
+    }
+    .appdownicon img{
+        width: 90px;
+    }
+    /* 25-06 */
+    .package--img{
+        display: none;
+    }
+    .payment-page, .package-page{
+        margin-top: 10px;
+    }
+    .boy--img img{
+        display: none;
+    }
+    .price--box{
+        width: 100%;
+    }
+
+}
+/* Small devices (portrait tablets and large phones, 480px and up) */
+@media screen and (min-width: 480px) and (max-width: 768px) {
+    .banner-section{
+        margin-top: 15px;
+    }
+    .searchbox{
+        margin-top: -20px;
+    }
+    .heartback, .heartback1, .heartback2{
+        display: none;
+    }
+    .subscribesection{
+        margin-bottom: 40px;
+    }
+    .copyright{
+        bottom: -20px;
+    }
+    .form-area{
+        background-color: #fff;
+        box-shadow: none;
+        border-radius: none;
+        padding: 30px 40px;
+    }
+    .coverimg-container{
+        margin-top: 15px;
+    }
+    .table-right {
+        margin-top: -15px;
+    }
+    .menubar{
+        display: none !important;
+    }
+    .mob-menu-container{
+        display: block;
+    }
+  .first-container{
+        margin-top: 45px;
+    }
+    /*25-06*/
+    .package--img{
+        display: none;
+    }
+    .payment-page, .package-page{
+        margin-top: 50px;
+    }
+    .boy--img img{
+        display: none;
+    }
+    .price--box{
+        width: 65%;
+    }
+      /*about us page */
+      .abt-img2{
+        height: auto;
+        width: 60%;
+    }
+    .abt-last-imgs{
+        width: 60%;
+        height: auto;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1110px) {
+    .heartback, .heartback1, .heartback2{
+        display: none;
+    }
+    /* .coverimg-container{
+        margin-top: 160px;
+    } */
+    .menubar{
+        float: right;
+        margin: 35px 25px 6px 10px;
+    }
+	 .first-container{
+        margin-top: 190px;
+    }
+    .boy--img img{
+        height: 200px;
+    }
+    .price--box{
+        width: 40%;
+    }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 1110px) {
+
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+}
+

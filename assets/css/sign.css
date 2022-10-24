@@ -1,0 +1,267 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: ComicSans;
+    src: url(../fonts/ComicSansMSRegular.ttf);
+}
+@font-face{
+    font-family: cooper;
+    src: url(../fonts/Cooper\ Black\ Regular.ttf);
+}
+.regclass{
+    background-image: url(../images/fashion-couple-together-walking-park.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    min-height: 100vh;
+}
+.logo-container{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	width:100%;
+	
+}
+.login-container{
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 30px 70px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+@media only screen and (max-width: 400px) {
+    .login-container{
+        padding: 30px 20px;
+    }
+}
+.logo-img{
+    height: 120px;
+    width: auto;
+    margin-bottom: 30px;
+    
+}
+@media only screen and (max-width: 1199px) {
+    .logo-img{
+       
+        height: 100px;
+    }
+}
+@media only screen and (max-width: 400px) {
+    .logo-img{
+        
+        height: 100px;
+        
+    }
+}
+.welcome-head{
+    font-family: ComicSans;
+    color: #e21d27;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+.welcome-head + p{
+    font-family: ComicSans;
+    font-size: 0.9rem;
+    color: #303030;
+    margin: 5px 0;
+}
+.lab{
+    display: block;
+    font-family: ComicSans;
+    color: #000;
+    font-size: 0.9rem;
+    margin-bottom: 8px;
+}
+.form-container input[type=text]{
+    margin-bottom: 15px;
+    width: 100%;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    padding: 8px;
+    text-indent: 10px;
+    font-size: 0.9rem;
+    color: #303030;
+}
+.form-container input[type=password]{
+    margin-bottom: 15px;
+    width: 100%;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    padding: 8px;
+    text-indent: 10px;
+    font-size: 0.9rem;
+    color: #303030;
+}
+
+
+  .signin-btn{
+      margin: 20px 0;
+      background-color: #e21d27;
+      color: #fff;
+      border: none;
+      border-radius: 10px;
+      width: 100%;
+      padding: 8px;
+      font-size: 0.9rem;
+      font-weight: 600;
+      font-family: Arial, Helvetica, sans-serif;
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  }
+  .no-acc{
+      margin-bottom: 3px;
+      font-size: 0.9rem;
+      font-family: ComicSans;
+  }
+  .no-acc span a{
+      color: #e21d27;
+  }
+  .forgot-password{
+      color: #e21d27;
+      font-size: 0.9rem;
+      font-family: ComicSans;
+  }
+  .forgot-password:hover{
+    color: #303030;
+  }
+
+  /*  checkbox  */
+.remeberme {
+    display: block;
+    position: relative;
+    padding-left: 25px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    color: #000;
+    font-family: ComicSans;
+  }
+  
+  /* Hide the browser's default checkbox */
+  .remeberme input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  /* Create a custom checkbox */
+  .checkmark {
+    position: absolute;
+    top: 4px;
+    left: 0;
+    height: 15px;
+    width: 15px;
+    background-color: #eee;
+    border-radius: 3px;
+    border: 1px solid #303030dc;
+    cursor: pointer;
+  }
+  
+  /* On mouse-over, add a grey background color */
+  .remeberme:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+  
+  /* When the checkbox is checked, add a blue background */
+  .remeberme input:checked ~ .checkmark {
+    background-color: #fff;
+  }
+  
+  /* Create the checkmark/indicator (hidden when not checked) */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the checkmark when checked */
+  .remeberme input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  /* Style the checkmark/indicator */
+  .remeberme .checkmark:after {
+    left: 2px;
+    top: 2px;
+    width: 9px;
+    height: 9px;
+    background: #e21d27;
+    border-radius: 2px;
+  }
+  .remeberme label{
+      cursor: pointer;
+  }
+  .password-inp{
+      position: relative;
+  }
+  .toggle-icon{
+      position: absolute;
+      right: 10px;
+      top: 40px;
+      cursor: pointer;
+      font-size: 0.9rem;
+      background-color: #fff;
+  }
+  .msg{
+      background-color: #e21d27;
+      color: #fff;
+      padding: 6px 10px;
+      font-size: 0.9rem;
+      margin-top: -20px;
+  }
+
+  /* register page */
+  .signin-option a{
+      color: #e21d27;
+  }
+  .form-container .inp-fields{
+    margin-bottom: 15px;
+    width: 100%;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    padding: 8px;
+    text-indent: 10px;
+    font-size: 0.9rem;
+    color: #303030;
+}
+.terms{
+    color: #e21d27;
+}
+
+.skip-btn{
+    margin-top: -10px;
+    margin-right: -20px;
+    color: #303030;
+    font-family: ComicSans;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+.skip-btn:hover{
+    text-decoration: none;
+    color: #e21d27;
+}
+.skip-btn i{
+    color: #303030;
+    font-size: 0.8rem;
+    opacity: 0.7;
+}
+@media only screen and (max-width: 480px) {
+.skip-btn{
+	
+    margin-right: 0px;
+}
+}

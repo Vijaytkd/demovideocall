@@ -1,0 +1,214 @@
+*{
+    border:none;
+    margin:none;
+    box-sizing: border-box;
+  }
+  body{
+    background-size:contain;
+    background-color:#e21d27;
+  }
+  .remoteVideo {
+    width: 90%;
+    height:550px;
+    margin: 5% 50px 0 50px;
+    border-radius: 2px;
+    background-color:white;
+    padding: 0;
+    box-shadow: rgba(156, 172, 172, 0.2) 0px 2px 2px, rgba(156, 172, 172, 0.2) 0px 4px 4px, rgba(156, 172, 172, 0.2) 0px 8px 8px, rgba(156, 172, 172, 0.2) 0px 16px 16px, rgba(156, 172, 172, 0.2) 0px 32px 32px, rgba(156, 172, 172, 0.2) 0px 64px 64px;
+    border:10px solid #e21d27;
+    border-radius:20px;
+  }
+  .localVideo {
+    /* max-width: calc(50% - 100px); */
+    /* margin: 0 50px; */
+    width:200px;
+    height:100px;
+    box-sizing: border-box;
+    border-radius: 2px;
+    padding: 0;
+    border: 2px solid black;
+    border-radius:10px;
+    position:absolute;
+    top:10.1%;
+    right:14.51%;
+    /* box-shadow: rgba(156, 172, 172, 0.2) 0px 2px 2px, rgba(156, 172, 172, 0.2) 0px 4px 4px, rgba(156, 172, 172, 0.2) 0px 8px 8px, rgba(156, 172, 172, 0.2) 0px 16px 16px, rgba(156, 172, 172, 0.2) 0px 32px 32px, rgba(156, 172, 172, 0.2) 0px 64px 64px; */
+  }
+  .hang{
+    height:50px;
+    width:50px;
+    position:absolute;
+    border-radius:30px;
+    bottom:70px;
+    left:48%;
+  }
+  .mute{
+    height:35px;
+    width:35px;
+    position:absolute;
+    border-radius:30px;
+    bottom:70px;
+    left:44%;
+  }
+  .pause{
+    height:35px;
+    width:35px;
+    position:absolute;
+    border-radius:30px;
+    bottom:70px;
+    left:53%;
+  }
+@media screen and (max-width: 1115px) {
+    .remoteVideo {
+        width: 96.6%;
+        height:480px;
+        margin: auto;
+        margin-top: 10%;
+        box-sizing: border-box;
+        border-radius: 2px;
+        background-color:white;
+        padding: 0;
+        border:10px solid #e21d27;
+        border-radius:20px;
+    }
+    .localVideo {
+        width:180px;
+        height:90px;
+        box-sizing: border-box;
+        border-radius: 2px;
+        padding: 0;
+        border: 2px solid black;
+        border-radius:10px;
+        position:absolute;
+        top:15.4%;
+        right:11.8%;
+    }
+    .hang{
+        bottom:110px;
+        left:45%;
+    }
+    .mute{
+        bottom:110px;
+        left:41%;
+    }
+    .pause{
+        bottom:110px;
+        left:50.5%;
+    }
+}
+@media screen and (max-width: 995px) {
+    .remoteVideo {
+        width: 840px;
+        height:420px;
+        margin:auto;
+        margin-top: 10%;
+        box-sizing: border-box;
+        border-radius: 2px;
+        background-color:white;
+        padding: 0;
+        border:10px solid #e21d27;
+        border-radius:20px;
+    }
+    .localVideo {
+        width:180px;
+        height:90px;
+        box-sizing: border-box;
+        border-radius: 2px;
+        padding: 0;
+        border: 2px solid black;
+        border-radius:10px;
+        position:absolute;
+        top:15.6%;
+        right:8.5%;
+    }
+    .hang{
+        border: 1px solid white;
+        bottom:60px;
+        left:46%;
+    }
+    .mute{
+        bottom:60px;
+        left:41.5%;
+    }
+    .pause{
+        bottom:60px;
+        left:52%;
+    }
+}
+@media screen and (max-width: 995px) {
+    .remoteVideo {
+        width: 840px;
+        height:420px;
+        margin:auto;
+        margin-top: 10%;
+        box-sizing: border-box;
+        border-radius: 2px;
+        background-color:white;
+        padding: 0;
+        border:10px solid #e21d27;
+        border-radius:20px;
+    }
+    .localVideo {
+        width:180px;
+        height:90px;
+        box-sizing: border-box;
+        border-radius: 2px;
+        padding: 0;
+        border: 2px solid black;
+        border-radius:10px;
+        position:absolute;
+        top:15.6%;
+        right:8.5%;
+    }
+    .hang{
+        border: 1px solid white;
+        bottom:60px;
+        left:46%;
+    }
+    .mute{
+        bottom:60px;
+        left:41.5%;
+    }
+    .pause{
+        bottom:60px;
+        left:52%;
+    }
+}
+@media screen and (max-width: 375px) {
+    .remoteVideo {
+        width: 100%;
+        height:80%;
+        margin:auto;
+        margin-top: 60%;
+        box-sizing: border-box;
+        border-radius: 2px;
+        background-color:white;
+        padding: 0;
+        border:10px solid #e21d27;
+        border-radius:20px;
+    }
+    .localVideo {
+        width:180px;
+        height:90px;
+        box-sizing: border-box;
+        border-radius: 2px;
+        padding: 0;
+        border: 2px solid white;
+        border-radius:10px;
+        position:absolute;
+        top:15.6%;
+        right:8.5%;
+    }
+    .hang{
+        border: 1px solid white;
+        bottom:135px;
+        left:42%;
+    }
+    .mute{
+        bottom:135px;
+        left:28.5%;
+    }
+    .pause{
+        bottom:135px;
+        left:60%;
+    }
+}

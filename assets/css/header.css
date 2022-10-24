@@ -1,0 +1,242 @@
+.navbar1{
+    position: sticky;
+    position: -webkit-sticky; /* Safari */
+    width: 100%;
+    margin: 0 0 10px 0;
+    padding: 0;
+    z-index: 999;
+    top: 0;
+    background: rgb(255, 255, 255);
+}
+.topbar1{
+    color: #fff;
+    display: inline-block;
+    width: 100%;
+    margin-left: auto;
+}
+.topbar1 ul::before{
+    content: "";
+    position: absolute;
+    left: -29px;
+    top: -1px;
+    border-bottom: 40px solid #303030;
+    border-left: 30px solid transparent;
+}
+.topbar1 ul{
+    background-color: #303030;
+    list-style: none;
+    float: right;
+    margin-bottom: 0 !important;
+    padding: 0 20px;
+    position: relative;
+}
+.topbar1 ul li a{
+    color: #fff;
+}
+.topbar1 ul li a:hover{
+    text-decoration: none;
+}
+.topbar1 ul li{
+    display: inline-block;
+    padding: 10px;
+    font-size: 0.8rem;
+    font-family: ComicSans;
+    cursor: pointer;
+}
+.topbar1 ul li i{
+    margin-right: 10px;
+}
+.headsection1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo1{
+    width: 275px;
+    margin-left: 25px;
+    position: relative;
+    top: -30px;
+}
+.btns1{
+    margin: 25px 35px 35px 0;
+}
+@media screen and (min-width: 1155px) {
+    .headsection1{
+        height: 90px;
+    }
+}
+@media screen and (max-width: 1155px) {
+    .logo1{
+        top: 0;
+        width: 244px;
+    }
+}
+@media screen and (max-width: 825px) {
+    .topbar1 ul li{
+        font-size: 0.7rem;
+    }
+    .topbar1 ul::before{
+        top: -4px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .navbar1{
+        position: relative;
+    }
+    .topbar1 ul{
+        text-align: center;
+        float: none;
+    }
+    .headsection1{
+        flex-direction: column;
+    }
+    .btns1{
+        margin: 10px 0;
+    }
+}
+@media screen and (max-width: 480px) {
+    .logo1{
+        width: 200px;
+    }
+    .topbar1 ul li{
+        font-size: 0.6rem;
+        padding: 4px;
+    }
+    .topbar1 ul{
+        padding: 0;
+    }
+}
+.joinbtn{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9rem;
+    border: none;
+    outline: none;
+    font-weight: 600;
+    background-color: #e21d27;
+    padding: 6px 30px;
+    color: #fff;
+    border-radius: 10px;
+    margin: 0 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.logbtn{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9rem;
+    border: none;
+    outline: none;
+    font-weight: 600;
+    background-color: #303030;
+    padding: 6px 24px;
+    color: #fff;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+/* after login header */
+
+.navbar{
+    position: sticky;
+    position: -webkit-sticky; /* Safari */
+    width: 100%;
+    margin: 0 0 10px 0;
+    padding: 0;
+    z-index: 999;
+    top: 0;
+    background-color: rgb(255, 255, 255);
+}
+.topbar{
+    color: #fff;
+    display: inline-block;
+    width: 100%;
+    margin-left: auto;
+}
+.topbar ul::before{
+    content: "";
+    position: absolute;
+    left: -29px;
+    top: -1px;
+    border-bottom: 40px solid #303030;
+    border-left: 30px solid transparent;
+}
+.topbar ul{
+    background-color: #303030;
+    list-style: none;
+    float: right;
+    margin-bottom: 0 !important;
+    padding: 0 20px;
+    position: relative;
+}
+.topbar ul li a{
+    color: #fff;
+}
+.topbar ul li a:hover{
+    text-decoration: none;
+}
+.topbar ul li{
+    display: inline-block;
+    padding: 10px;
+    font-size: 0.8rem;
+    font-family: ComicSans;
+    cursor: pointer;
+}
+.topbar ul li i{
+    margin-right: 10px;
+}
+.headsection{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+.logo{
+    width: 275px;
+    margin-left: 25px;
+    position: relative;
+    top: -30px;
+}
+.menubar{
+    margin: 30px 25px 6px 10px;
+}
+@media screen and (min-width: 1155px) {
+    .headsection{
+        height: 90px;
+    }
+}
+@media screen and (max-width: 1155px) {
+    .logo{
+        top: 0;
+        width: 244px;
+    }
+}
+@media screen and (max-width: 825px) {
+    .topbar ul li{
+        font-size: 0.7rem;
+    }
+    .topbar ul::before{
+        top: -4px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .navbar{
+        position: relative;
+    }
+    .topbar ul{
+        text-align: center;
+        float: none;
+    }
+    .headsection{
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 480px) {
+    .logo1{
+        width: 200px;
+    }
+    .topbar ul li{
+        font-size: 0.6rem;
+        padding: 4px;
+    }
+    .topbar ul{
+        padding: 0;
+    }
+}
